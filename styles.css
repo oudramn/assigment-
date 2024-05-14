@@ -1,0 +1,120 @@
+body{
+   
+    background-color: rgb(111,144,175);
+
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: rgb(54,55,59);
+}
+li{
+    text-decoration: none;
+    text-emphasis: none;
+    font-weight: 2em;
+    font-size: 1.5em;
+    margin-left: 30px;
+    color: rgb(54,55,59);
+
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: linear 3s;
+    color: rgb(54,55,59);
+}
+a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.text{
+    width:500px;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    margin-top: 200px;
+    margin-left: 60px;
+    color: rgb(54,55,59);
+    float:left;
+    
+}
+.img{
+    width: min-content;
+    float: right;
+    justify-content: right;
+    margin-top: 110px;
+    margin-right: 60px;
+    
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.mission{
+    margin-top: 600px;
+    width: fit-content;
+    margin-left: 30px;
+    background-color: rgb(193,186,178);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 30px;
+    height: 300px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+.mission2{
+    margin-top: 100px;
+    width: fit-content;
+    margin-left: 30px;
+    background-color: rgb(193,186,178);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 30px;
+    height: 250px;
+    border-radius: 5px;
+    
+}
+.mission:hover{
+    box-shadow: 0 0 10px;
+}
+.mission2:hover{
+    box-shadow: 0 0 10px;
+}
+section{
+    display: flex;
+    gap: 20px;
+
+
+}
+.cont{
+    display: flex;
+    justify-content: center;
+}
+.destination{
+   padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+ 
+     
+}
+.heading{
+    display:flex;
+    justify-content: center;
+
+}
+.grid{
+    width: 300px;
+    background-color: rgb(215, 113, 45);
+    padding: 20px;
+
+}
+.grid:hover{
+    display: flex;
+    justify-content: center;
+
+
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
